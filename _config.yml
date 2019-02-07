@@ -12,8 +12,8 @@ author:
   image: 'authorimage.png'
   greetings:
 favicon: 
-baseurl: 'ElringusMe'
-production_url: https://elringus.github.io/ElringusMe/
+baseurl: ElringusMe
+production_url: https://elringus.github.io
 disqus: 'elringus'
 mailchimp_url: 
 ga_analytics: 'UA-62903242-1'
