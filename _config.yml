@@ -12,7 +12,7 @@ author:
   image: 'authorimage.png'
   greetings:
 favicon: 
-baseurl: 
+baseurl: 'ElringusMe'
 production_url: https://elringus.github.io/ElringusMe/
 disqus: 'elringus'
 mailchimp_url: 
