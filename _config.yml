@@ -1,5 +1,5 @@
 # GitHub Pages settings
-repository: elringus/ElringusMe
+repository: https://github.com/elringus/ElringusMe
 
 # Site setings
 name: 'Elringus'
@@ -12,7 +12,7 @@ author:
   image: 'authorimage.png'
   greetings:
 favicon: 
-url: https://elringus.github.io
+url: https://elringus.github.io/
 baseurl: ElringusMe
 disqus: 'elringus'
 mailchimp_url: 
