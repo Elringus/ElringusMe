@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sprite Glow VFX"
-tags: [ light,halo,2D,shader,gamedev ]
+tags: [ opensource,light,halo,2D,shader,gamedev ]
 ---
 
 Just made a quick and dirty glow effect for Unity sprites. 

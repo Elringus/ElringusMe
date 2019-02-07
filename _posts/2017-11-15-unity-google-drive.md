@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Unity Google Drive"
-tags: [ sdk,auth,files,sharing ]
+tags: [ opensource,sdk,auth,files,sharing ]
 ---
 
 Assembled a plugin for Unity engine to work with Google Drive. The plugin provides API for listing, searching, creating, uploading, editing, copying, downloading and deleting files; works with Unity version 5.6 and higher and supports all major target platforms (including WebGL).

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sprite Dicing"
-tags: [ 2D,atlasing,optimization,unity ]
+tags: [ opensource,2D,atlasing,optimization,unity ]
 featured_image_thumbnail: 
 featured_image: /assets/images/posts/dicing-1.png
 featured: true

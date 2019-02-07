@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "UI distortion in Unreal Engine"
-tags: [ glitch,shader,ue4 ]
+tags: [ opensource,glitch,shader,ue4 ]
 ---
 
 In [Breached](http://breached-game.com/) we have a lot of digital noise/glitch effects. While we mostly used the wonderful ["Sci-Fi and Glitch Post-Process"](https://www.unrealengine.com/marketplace/sci-fi-and-glitch-post-process) package, I’ve wanted to add a bit of uniqueness to UI noise effect and assembled a material function for distorting UI texture UVs.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dark Matter VFX"
-tags: [ glitch,distortion,shader,gamedev ]
+tags: [ opensource,shader,gamedev ]
 ---
 
 A while ago, working on [Breached](http://breached-game.com/), I’ve been figuring out how to visualize a weird in-game creature called "Keeper". It was something like an electromagnetic anomaly, stalking around and hunting for player.

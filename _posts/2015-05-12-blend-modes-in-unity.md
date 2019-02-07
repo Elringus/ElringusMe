@@ -2,6 +2,9 @@
 layout: post
 title:  "Blend Modes in Unity"
 tags: [ shader,vfx,gamedev ]
+featured_image_thumbnail: 
+featured_image: /assets/images/posts/blend-modes-gif.gif
+featured: true
 ---
 
 You've probably heard about [blend modes](https://en.wikipedia.org/wiki/Blend_modes) available in image and video editing tools like Photoshop or After Effects. It is an important technique for content creation and has long since become an integral part of them.
