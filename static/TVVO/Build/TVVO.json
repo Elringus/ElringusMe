@@ -1,0 +1,13 @@
+{
+"companyName": "Drama Drifters",
+"productName": "TVVO",
+"dataUrl": "TVVO.data.unityweb",
+"wasmCodeUrl": "TVVO.wasm.code.unityweb",
+"wasmFrameworkUrl": "TVVO.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
