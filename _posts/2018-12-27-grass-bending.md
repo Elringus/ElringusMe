@@ -3,7 +3,7 @@ layout: post
 title:  "Grass Bending"
 tags: [ unity,shader,terrain,touch,dynamic ]
 featured_image_thumbnail: 
-featured_image: "https://i.gyazo.com/5f49298b1f2804f7f36957a0abde7700.gif"
+featured_image: https://i.gyazo.com/5f49298b1f2804f7f36957a0abde7700.gif
 featured: true
 ---
 
