@@ -3,7 +3,7 @@ layout: post
 title:  "Sprite Dicing"
 tags: [ 2D,atlasing,optimization,unity ]
 featured_image_thumbnail: 
-featured_image: assets/images/posts/dicing-1.png
+featured_image: /assets/images/posts/dicing-1.png
 featured: true
 ---
 
@@ -13,7 +13,7 @@ This technique allows to significantly reduce build size, in cases when multiple
 
 Consider a visual novel type of game, where you have multiple textures per character, each portraying a different emotion; most of the textures space will be occupied with the identical data, and only a small area will vary:
 
-![](assets/images/posts/dicing-2.png)
+![](/assets/images/posts/dicing-2.png)
 
 These original five textures have total size of 17.5MB. After dicing, the resulting atlas texture will contain only the unique chunks, having the size of just 2.4MB. We can now discard the original five textures and use the atlas to render the original sprites, effectively compressing source textures data by 86.3%.
 

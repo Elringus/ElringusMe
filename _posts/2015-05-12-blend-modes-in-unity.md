@@ -10,7 +10,7 @@ But what about video games?
 
 Say you need to use *Color Dodge* blending for a particle system. Or your UI-artist made a beautiful assets in Photoshop, but some of them are using *Soft Light* blend mode? Or maybe you’ve wanted to create some weird Lynch-esque effect with *Divide* blending and apply it to a 3D mesh?
 
-![](assets/images/posts/blend-modes-cover.png)
+![](/assets/images/posts/blend-modes-cover.png)
 
 In this article I will describe the mechanics behind popular blend modes and try to simulate their effect inside Unity game engine.
 
@@ -19,11 +19,11 @@ In this article I will describe the mechanics behind popular blend modes and try
 ## Blending algorithms
 For starters, let’s define what exactly we need to do. Consider two graphic elements, where one overlaps the other.
 
-![](assets/images/posts/blend-modes-1.png)
+![](/assets/images/posts/blend-modes-1.png)
 
 This is the example of *Normal* blend mode: each pixel of the lower layer (**a**) is completely overridden by the pixels of the layer that covers it (**b**). The most trivial case possible — most of the objects “blends” like this.
 
-![](assets/images/posts/blend-modes-2.png)
+![](/assets/images/posts/blend-modes-2.png)
 
 While in *Screen* blend mode, colors of both layers are inverted, multiplied, and then inverted again. Let’s implement this algorithm using [Cg programming language](https://en.wikipedia.org/wiki/Cg_%28programming_language%29):
 
@@ -38,7 +38,7 @@ While in *Screen* blend mode, colors of both layers are inverted, multiplied, an
 
 Note we are passing the alpha value of the upper layer (**b.a**) to the alpha of the resulting layer (**r.a**), to be able to control the opacity of the material.
 
-![](assets/images/posts/blend-modes-3.png)
+![](/assets/images/posts/blend-modes-3.png)
 
 *Overlay* algorithm is conditional: for the “dark” areas we are multiplying the colors, for “light” — using the expression similar to *Screen*.
 <pre><code>
@@ -50,7 +50,7 @@ fixed4 Overlay (fixed4 a, fixed4 b)
 }
 </code></pre>
 
-![](assets/images/posts/blend-modes-4.png)
+![](/assets/images/posts/blend-modes-4.png)
 
 In *Darken* mode RGB components of the layers are compared and only the “darkest” left in the resulting color.
 <pre><code>
@@ -71,13 +71,13 @@ Having all the blending algorithms implemented it may seem that only the trivial
 
 In order to get that “**a**” layer we need to access the frame buffer, and we need to do this inside the fragment shader to be able to perform the blending algorithm per pixel. At the same time, the logic of the rendering pipeline won’t allow us to do this directly.
 
-![](assets/images/posts/blend-modes-5.png)
+![](/assets/images/posts/blend-modes-5.png)
 
 The final image (which contains the data we need) is formed after the fragment shader execution, so we can’t access it directly from the Cg program. Therefore, we need to find a workaround.
 
 In fact, the need for the final image data within the fragment shader occurs quite often. Most of the post processing effects implementation, for example, is unthinkable without accessing the final image inside fragment function. For such cases, there is the so-called *render to texture* technic: the data from the frame buffer is copied to a special texture, which is exposed for reading on consecutive fragment shader run.
 
-![](assets/images/posts/blend-modes-6.png)
+![](/assets/images/posts/blend-modes-6.png)
 
 There are several ways to work with render texture in Unity. In our case, the most appropriate would be to make use of <a href="http://docs.unity3d.com/Manual/SL-GrabPass.html" target="_blank" rel="noopener">GrabPass</a>.
 
@@ -89,7 +89,7 @@ Let’s create a simple shader for UI-graphics, add a GrabPass to it and return 
 
 To evaluate the results, we will use the same textures we used in Photoshop during blend algorithms demonstration.
 
-![](assets/images/posts/blend-modes-7.png)
+![](/assets/images/posts/blend-modes-7.png)
 
 As you can see, the results in Unity and in Photoshop are visually identical. Win? Not really…
 
@@ -107,7 +107,7 @@ Unfortunately, this solution has one significant drawback: as different objects 
 
 The problem becomes obvious if we stack two objects with the blend effect onto each other:
 
-![](assets/images/posts/blend-modes-8.png)
+![](/assets/images/posts/blend-modes-8.png)
 
 In addition, even one single GrabPass per frame may be too “expensive” for mobile devices, which means we have to look for alternative approaches.
 
@@ -115,7 +115,7 @@ In addition, even one single GrabPass per frame may be too “expensive” for m
 
 If using GrabPass in any way is a no-go, let’s try to achieve the goal without it. One option: try to change blending mode performed after the fragment shader execution (in context of Unity rendering pipeline):
 
-![](assets/images/posts/blend-modes-9.png)
+![](/assets/images/posts/blend-modes-9.png)
 
 This step is mostly used for processing semi-transparent objects and there is not much we can modify here. The blending logic is controlled by the special expression, which uses two keywords to specify operations for source and destination colors.
 <pre><code>Blend SrcFactor DstFactor</code></pre>
@@ -149,7 +149,7 @@ Let’s modify our UI Darken shader to use BlendOp instead of GrabPass: <a href=
 
 Using the same textures to evaluate the result.
 
-![](assets/images/posts/blend-modes-10.png)
+![](/assets/images/posts/blend-modes-10.png)
 
 The problem is obvious: we are using alpha blending stage for our needs, so the transparent areas of the texture are not handled correctly. On the other hand, opaque objects are rendered correctly and with great performance. Thereby, if we need to blend an opaque object and the blend mode could be reproduced with the Blend and BlendOp expressions — it could be the best way to go.
 
@@ -163,7 +163,7 @@ In 2013, the <a href="https://www.khronos.org/registry/gles/extensions/EXT/EXT_s
 
 Let’s modify our UI shader to use Framebuffer Fetch: <a href="https://github.com/Elringus/BlendModeExample/blob/master/Assets/Shaders/FramebufferDarken.shader" target="_blank" rel="noopener">FrameBufferFetchDarken.shader</a>
 
-![](assets/images/posts/blend-modes-11.png)
+![](/assets/images/posts/blend-modes-11.png)
 
 Perfect. What else could we actually wish? No extra operations, maximum performance, any blend logic can be implemented with ease… Except that illustration above is a piece of a screenshot captured from iPad Air. And in Unity editor, for example, our shader would simply refuse to work.
 

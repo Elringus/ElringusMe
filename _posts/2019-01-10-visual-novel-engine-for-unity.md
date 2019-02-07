@@ -3,7 +3,7 @@ layout: post
 title:  "Visual Novel Engine for Unity"
 tags: [ unity3d,vn,extension ]
 featured_image_thumbnail: 
-featured_image: assets/images/posts/vn-cover.jpg
+featured_image: /assets/images/posts/vn-cover.jpg
 featured: true
 ---
 
