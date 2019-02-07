@@ -12,7 +12,7 @@ author:
   image: 'authorimage.png'
   greetings:
 favicon: 
-url: https://elringus.github.io
+url: https://elringus.github.io/ElringusMe
 baseurl: ElringusMe
 production_url: https://elringus.github.io/ElringusMe
 disqus: 'elringus'
