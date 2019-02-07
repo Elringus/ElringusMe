@@ -12,7 +12,6 @@ author:
   image: 'authorimage.png'
   greetings:
 favicon: 
-baseurl: ElringusMe
 disqus: 'elringus'
 mailchimp_url: 
 ga_analytics: 'UA-62903242-1'
