@@ -6,7 +6,7 @@ meta_description: 'Elringus personal website / blog.'
 logo: '/assets/images/logo.png'
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
-  image: '/assets/images/authorimage.png'
+  image: 'authorimage.png'
   greetings:
 favicon: '/assets/images/logo.png'
 url: https://elringus.me
