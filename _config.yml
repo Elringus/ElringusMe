@@ -29,13 +29,13 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: /about
+    url: /about/
   - text: Unity Assets
-    url: /unity-assets
+    url: /unity-assets/
   - text: Engines of Play
-    url: /engines-of-play
+    url: /engines-of-play/
   - text: Contact Me
-    url: /contact
+    url: /contact/
 
 # Required Plugins
 plugins_dir:
