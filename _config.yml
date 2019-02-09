@@ -3,12 +3,12 @@ name: 'Elringus'
 title: 'Elringus'
 description: 'Artyom Sovetnikov'
 meta_description: 'Elringus personal website / blog.'
-logo:
+logo: 'logo.png'
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.png'
   greetings:
-favicon: 
+favicon: 'logo.png'
 url: https://elringus.me
 disqus: 'elringus'
 mailchimp_url: 
