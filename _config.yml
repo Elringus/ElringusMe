@@ -6,9 +6,9 @@ meta_description: 'Elringus personal website / blog.'
 logo: 'logo.png'
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
-  image: 'authorimage.png'
+  image: '/assets/images/authorimage.png'
   greetings:
-favicon: 'logo.png'
+favicon: '/assets/images/logo.png'
 url: https://elringus.me
 disqus: 'elringus'
 mailchimp_url: 
