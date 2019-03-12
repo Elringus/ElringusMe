@@ -3,7 +3,7 @@ layout: page
 title: Unity Assets
 ---
 
-The assets I am currently distributing via the [Unity Asset Store](https://assetstore.unity.com). If you need support or have a question, feel free to post at the support forum threads or [mail me directly](/contact). I will usually respond within an hour if you contact me from 9.00 until 21.00 UTC.
+The assets I am currently distributing via the [Unity Asset Store](https://assetstore.unity.com). If you need support or have a question, feel free to [PM me on the Unity forum](https://forum.unity.com/conversations/add?to=Elringus) or [send an e-mail via the contact form](/contact). I will usually respond within an hour if you contact me from 9.00 until 21.00 UTC.
 
 ## Naninovel
 
