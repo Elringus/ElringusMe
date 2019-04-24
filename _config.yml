@@ -34,8 +34,6 @@ navigation:
     url: /unity-assets/
   - text: Engines of Play
     url: /engines-of-play/
-  - text: Contact Me
-    url: /contact/
 
 # Required Plugins
 plugins_dir:
