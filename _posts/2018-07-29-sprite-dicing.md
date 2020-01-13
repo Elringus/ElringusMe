@@ -19,6 +19,6 @@ These original five textures have total size of 17.5MB. After dicing, the result
 
 ![](https://i.gyazo.com/7f79936fc714abcc342ae348478b9c8e.gif)
 
-The project is available on GitHub under MIT license: [github.com/Elringus/UnityRawInput](github.com/Elringus/UnityRawInput).
+The project is available on GitHub under MIT license: [github.com/Elringus/SpriteDicing](https://github.com/Elringus/SpriteDicing).
 
 **By the way, in case you’re developing a visual novel, [take a look at my visual novel engine](https://u3d.as/1pg9), which uses this extension.**
