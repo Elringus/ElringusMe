@@ -11,6 +11,6 @@ Being a huge anime and visual novels fan, I’ve always wanted to somehow contri
 
 That’s how [Naninovel](https://naninovel.com/) — writer-friendly visual novel engine, which I’ve been working on for the past two years — came to life. Being a Unity extension, it provides all the benefits of the modern cross-platform game engine, and having a unique scripting feature — novel scripts — it allows composing scenarios in a way a scriptwriter would do for a movie or a play: using a familiar text editor and syntax constructs, without even opening Unity editor.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/868mvr9ii4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lRxIKDU9z4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Naninovel is now in public beta and can be purchased on the [Unity’s Asset Store](https://u3d.as/1pg9).
