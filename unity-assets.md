@@ -11,7 +11,7 @@ The assets I am currently distributing via the [Unity Asset Store](https://asset
 
 Naninovel is a comprehensive solution for creating **full-featured visual novels** using **writer-friendly** tools.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/868mvr9ii4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lRxIKDU9z4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Blend Modes
 
