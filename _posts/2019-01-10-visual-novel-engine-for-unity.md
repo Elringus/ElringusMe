@@ -13,4 +13,4 @@ That’s how [Naninovel](https://naninovel.com/) — writer-friendly visual nove
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lRxIKDU9z4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Naninovel is now in public beta and can be purchased on the [Unity’s Asset Store](https://u3d.as/1pg9).
+Naninovel can be purchased on the [Unity’s Asset Store](https://u3d.as/1pg9).
