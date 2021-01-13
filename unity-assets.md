@@ -15,7 +15,7 @@ Naninovel is a comprehensive solution for creating **full-featured visual novels
 
 ## Blend Modes
 
-[STORE](http://u3d.as/b9w)  •  [DEMO](/static/blend-modes-webgl/)  •  [GUIDE](https://goo.gl/tSAmB7)  •  [SUPPORT FORUM](http://forum.unity3d.com/threads/blend-modes.291477/)
+[STORE](http://u3d.as/b9w)  •  [DEMO](/static/blend-modes-webgl/)  •  [GUIDE](https://goo.gl/tSAmB7)
 
 Blend Modes is an editor extension for Unity which allows you to change the blend mode of objects. Just like in Photoshop and similar image editing software, you will be able to set any of the 25 different blend modes to UI graphics or text, particle systems, 3D meshes, 2D sprites, cameras and other objects to achieve a wide range of effects.
 
@@ -23,7 +23,7 @@ Blend Modes is an editor extension for Unity which allows you to change the blen
 
 ## Alpha Raycaster
 
-[STORE](http://u3d.as/bfD)  •  [DEMO](/static/alpha-raycaster-webgl/)  •  [GUIDE](https://goo.gl/fiEvOL)  •  [SUPPORT FORUM](http://forum.unity3d.com/threads/alpha-raycaster.297430/)
+[STORE](http://u3d.as/bfD)  •  [DEMO](/static/alpha-raycaster-webgl/)  •  [GUIDE](https://goo.gl/fiEvOL)
 
 Alpha Raycaster is a custom raycaster for UI objects built upon default Graphic Raycaster. It checks texture transparency, before deciding whether to send input events for targeted object, which allows a precise interaction with objects that have a non-rect shapes (like circles, triangles, map regions, etc).
 
@@ -32,7 +32,7 @@ Alpha Raycaster is a custom raycaster for UI objects built upon default Graphic 
 
 ## Digital Glitches
 
-[STORE](http://u3d.as/bsV)  •  [DEMO](/static/camera-glitch-webgl/)  •  [GUIDE](https://goo.gl/1ElJtk)  •  [SUPPORT FORUM](http://forum.unity3d.com/threads/camera-glitch-image-effect.375869/)
+[STORE](http://u3d.as/bsV)  •  [DEMO](/static/camera-glitch-webgl/)  •  [GUIDE](https://goo.gl/1ElJtk)
 
 Image (post-processing) and UI effects for Unity that simulates random digital video glitches and artifacts. May be used to simulate video camera (or any other digital video hardware) malfunction.
 
