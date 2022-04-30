@@ -7,7 +7,7 @@ Below are the extensions for Unity game engine I'm currently maintaining. If you
 
 ## Naninovel
 
-[STORE](https://u3d.as/1pg9)  •  [DEMO](https://naninovel.com/demo/)  •  [GUIDE](https://naninovel.com/guide/)  •  [SUPPORT](https://naninovel.com/support/)
+[STORE](https://naninovel.com)  •  [DEMO](https://naninovel.com/demo/)  •  [GUIDE](https://naninovel.com/guide/)  •  [SUPPORT](https://naninovel.com/support/)
 
 Naninovel is a comprehensive solution for creating full-featured visual novels using writer-friendly tools.
 
