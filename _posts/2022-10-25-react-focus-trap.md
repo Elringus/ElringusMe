@@ -13,7 +13,7 @@ The task seemed trivial and I was hoping to find some generic single-function/co
 
 So I'm sharing the solution I've come up with here; hopefully it will be useful as a starting point or inspiration for someone.
 
-<pre><code class="language-typescript">
+```tsx
 import { useRef, useEffect } from "react";
 
 type Props = {
@@ -58,11 +58,11 @@ export const FocusTrap = (props: Props) => {
 
     return <span ref={ref}>{props.children}</span>;
 };
-</code></pre>
+```
 
 The trap component scans underlying content finding first and last visible elements with `tabIndex` attribute and overrides Tab/Shift+Tab behavior for them. It can be used as follows:
 
-```ts
+```tsx
 <FocusTrap>
     <ModalOrOtherContentToTrapFocus/>
 </FocusTrap>

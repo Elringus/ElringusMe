@@ -51,7 +51,6 @@ permalink: /:title/
 
 # Other
 markdown: kramdown
-highlighter: rouge
 
 # Sass
 sass:
