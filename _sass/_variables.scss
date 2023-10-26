@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
 // Fonts
-$font-primary: 'Karla', sans-serif;
-$font-secondary: 'Crimson Text', serif;
+$font-primary: 'Inter', sans-serif;
+$font-secondary: 'Yanone Kaffeesatz', serif;
 
 // Colors
-$color-accent: #3ca8a9;
-$gray-darkest: #1d1d1d;
-$gray-dark: #333;
-$gray: #666;
-$gray-light: #aaa;
-$gray-lighter: #eee;
+$back-color: #1f1c1b;
+$primary-color: #ccc;
+$title-color: #cecece;
+$color-accent: #41c5c7;
+$color-accent-light: #fff;
+$gray-darkest: #171615;
+$gray-dark: #2e2e32;
+$gray: #888;
+$gray-light: #ccc;
+$gray-lighter: #555;
 $yellow: #fffac4;

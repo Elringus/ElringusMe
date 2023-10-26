@@ -5,7 +5,7 @@
 
  .about-icon {
   padding-bottom: 4px;
-  margin-right: 2px; 
+  margin-right: 2px;
   display: inline;
  }
 
@@ -21,20 +21,21 @@ html {
 }
 
 body {
-  background: #fff;
-  color: $gray-darkest;
+  background: $back-color;
+  color: $primary-color;
   line-height: 1.66667;
 }
 
 a {
   color: $color-accent;
   text-decoration: underline;
+  text-underline-position: from-font;
   -webkit-transition: background .3s ease, color .3s ease;
   transition: background .3s ease, color .3s ease;
 }
 
 a:hover {
-  color: $gray-darkest;
+  color: $color-accent-light;
   text-decoration: none;
 }
 
@@ -44,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $gray-darkest;
+  color: $title-color;
   font-family: $font-secondary;
   font-weight: 600;
   line-height: 1.2;
@@ -109,16 +110,15 @@ ins {
 }
 
 code {
-  color: $gray-dark;
+  color: $primary-color;
   font-size: 0.88889rem;
   padding: 1px 3px;
 }
 
 pre {
   border: 1px solid $gray-lighter;
-  color: $gray-dark;
+  color: $primary-color;
   font-size: 0.88889rem;
-  margin: 0 0 1.875em;
   overflow: auto;
   padding: 1.875em;
   white-space: pre;
@@ -129,7 +129,7 @@ pre code {
 }
 
 blockquote {
-  color: $gray-darkest;
+  color: $primary-color;
   font-family: $font-secondary;
   font-size: 2rem;
   line-height: 1.25;
@@ -680,7 +680,7 @@ img {
 /* PrismJS 1.15.0 */
 code[class*="language-"],
 pre[class*="language-"] {
-  color: $gray-dark;
+  color: $primary-color;
   background: 0;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   text-align: left;
@@ -688,13 +688,7 @@ pre[class*="language-"] {
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  line-height: 1.5;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
   tab-size: 4;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
   hyphens: none;
 }
 :not(pre) > code[class*="language-"] {

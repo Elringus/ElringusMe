@@ -4,7 +4,7 @@
  */
 .site-header {
   background: $gray-darkest;
-  color: #fff;
+  color: $title-color;
 }
 
 .site-header-inside {
@@ -55,8 +55,12 @@
 }
 
 .site-title a {
-  color: #fff;
+  color: $title-color;
   text-decoration: none;
+}
+
+.site-title a:hover {
+  color: $color-accent-light;
 }
 
 .site-description {
@@ -72,7 +76,7 @@
 
 #menu-toggle {
   background-color: transparent;
-  color: #fff;
+  color: $title-color;
   height: 30px;
   margin-left: auto;
   padding: 0;
