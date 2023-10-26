@@ -3,7 +3,7 @@ layout: post
 title:  "Blend Modes in Unity"
 tags: [ shader,vfx,gamedev ]
 featured_image_thumbnail: 
-featured_image: /assets/images/posts/blend-modes-gif.gif
+featured_video: /assets/images/posts/blend-modes.mp4
 featured: true
 ---
 

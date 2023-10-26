@@ -27,7 +27,7 @@
   margin-bottom: 1.66667em;
 }
 
-.post-thumbnail img {
+.post-thumbnail img, .post-thumbnail video {
   width: 100%;
 }
 
@@ -312,7 +312,7 @@
   width: 100%;
 }
 
-.post-featured img {
+.post-featured img, .post-featured video  {
   height: 100%;
   left: 0;
   object-fit: cover;

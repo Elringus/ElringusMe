@@ -10,6 +10,13 @@ layout: default
         {% if page.featured_image %}
         <div class="post-thumbnail"><img src="{{ site.baseurl }}{{ page.featured_image }}" alt="{% if page.featured_image_alt %}{{ page.featured_image_alt }}{% else %}{{ page.title }}{% endif %}" /></div>
         {% endif %}
+        {% if page.featured_video %}
+        <div class="post-thumbnail">
+            <video autoplay muted loop>
+                <source src="{{ site.baseurl }}{{ page.featured_video }}" type="video/mp4">
+            </video>
+        </div>
+        {% endif %}
         <div class="post-content inner">
             {{content}}
         </div>
