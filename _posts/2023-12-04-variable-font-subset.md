@@ -31,4 +31,4 @@ pyftsubset jb.ttf --output-file=jb.woff2 --flavor=woff2  --layout-features=* --u
 
 The resulting file is **45KB**, 6 times smaller than the original.
 
-You can as well disable some layout features to reduce it further. Find the available option in the [tool docs](https://fonttools.readthedocs.io/en/latest/subset).
+You can as well disable some layout features to reduce it further. Find the available options in the [tool docs](https://fonttools.readthedocs.io/en/latest/subset).
