@@ -186,6 +186,6 @@ To see all the work in action, here is a video demonstrating blend modes applied
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t42HHIw4Apw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-And a WebGL demo: <a href="/static/blend-modes-webgl/" target="_blank" rel="noopener">https://elringus.me/static/blend-modes-webgl/</a>
+And a WebGL demo: <a href="/static/blend-modes-webgl/" target="_blank" rel="noopener">https://elringus.com/static/blend-modes-webgl/</a>
 
 In case someone will want to experiment with the solutions described in the article, here is a simple Unity project with the materials I used for the demonstration: <a href="https://github.com/Elringus/BlendModeExample" target="_blank" rel="noopener">https://github.com/Elringus/BlendModeExample</a>
